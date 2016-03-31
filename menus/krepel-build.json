@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle krepel-build",
+        "command": "krepel-build:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "krepel-build",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "krepel-build:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

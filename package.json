@@ -1,0 +1,23 @@
+{
+  "name": "krepel-build",
+  "main": "./lib/krepel-build",
+  "version": "0.0.0",
+  "description": "Build provider for krepel build system for the build package",
+  "keywords": [
+  ],
+  "repository": "https://github.com/pampersrocker/krepel-build",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Description of the build configurations this package gives",
+      "versions": {
+        "2.0.0": "providingFunction"
+      }
+    }
+  }
+}
