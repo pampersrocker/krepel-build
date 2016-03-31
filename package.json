@@ -1,7 +1,7 @@
 {
   "name": "krepel-build",
   "main": "./lib/krepel-build",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Build provider for krepel build system for the build package",
   "keywords": [],
   "repository": "https://github.com/pampersrocker/krepel-build",
